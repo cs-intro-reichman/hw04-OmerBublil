@@ -26,7 +26,7 @@ public class ArrayOps {
             if (array[i] > secondMax && array [i] < firstMax){
                 secondMax = array [i];
             }
-            if (array[i] > firstMax){
+            if (array[i] >= firstMax){
                     secondMax = firstMax;
                     firstMax = array[i];
                 }
